@@ -1,0 +1,14 @@
+a, b, c = input().split()
+
+digits = [a, b, c]
+
+orders = [
+	(0, 1, 2),
+	(0, 2, 1),
+	(1, 0, 2),
+	(1, 2, 0),
+	(2, 0, 1),
+	(2, 1, 0)
+]
+for i, j, k in orders:
+	print(digits[i] + digits[j] + digits[k])
