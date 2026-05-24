@@ -1,0 +1,10 @@
+set_a_input = input("Set A: ")
+set_b_input = input("Set B: ")
+set_a = {int(x) for x in set_a_input.split()}
+set_b = {int(x) for x in set_b_input.split()}
+union_set = set_a | set_b
+intersection_set = set_a & set_b
+difference_set = set_a - set_b
+print(f"Union: {union_set}")
+print(f"Intersection: {intersection_set}")
+print(f"Difference: {difference_set}")
