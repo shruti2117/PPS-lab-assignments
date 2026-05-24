@@ -1,0 +1,4 @@
+side_input = input()
+side = int(side_input)
+area = side ** 2
+print(f"{area}")
